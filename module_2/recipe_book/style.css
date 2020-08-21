@@ -1,0 +1,234 @@
+/* global */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #161748;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.50;
+
+}
+.container {
+ width: 80%;
+ margin: auto;
+}
+
+.boxes {
+    margin-right: -15px;
+    margin-left: -15px;
+    /* background-color: #fff; */
+  }
+
+  .heading{
+      color: white;
+      font-size: 40px;
+      margin-top: 50px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  .text-center{
+      text-align: center;
+  }
+
+/* --------global--- */
+
+#head{
+    margin: -35px;
+    width: 100%; 
+    min-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;  
+    background-position: center;
+    background-image:
+      url("./images/kitchen.jpg");
+}
+
+#logo{
+   color: white;
+   text-shadow: 3px 2px 2px #161748;
+   /* font-size: 40px; */
+   padding: 200px 0 0 40px;
+   cursor: pointer;
+}
+
+/* categories */
+.catBox1 {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 20%;
+    margin-left: 25px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.catBox1>a{
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    padding: 20px 40px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.catBox1>a:hover{
+   
+    color: tomato;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+} 
+
+
+/* Recipies */
+#recipies{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.recipeBox {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 25%;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 3px solid tomato;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.recipeBox img{
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    min-height: 200px;
+}
+
+.recipeBox h3{
+    font-size: 22px;
+    color: #000;
+}
+
+.recipeBox h3:hover{
+    font-size: 25px;
+    color: #161748;
+    text-decoration: underline;
+}
+
+.recipeBox sub {
+    color: #161748;
+    margin-top: -60px;
+}
+
+
+/* single recipe */
+
+#recipe{
+    margin-top: 40px;
+}
+#recipe p {
+    margin-top: 90px;
+}
+
+.showcase {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 3px solid tomato;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.showcase img {
+    width: 400px;
+}
+
+#ingredients{
+    margin-top: -50px;
+}
+#ingredients p{
+font-size: 25px;
+font-weight: solid;
+color: tomato;
+}
+
+.ingredient-table{
+    width: 50%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.ingredient-table td {
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    padding: 8px;
+    line-height: 1.5;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/* directions */
+#directions{
+    margin-top: 100px;
+}
+#directions p{
+    font-size: 25px;
+    font-weight: solid;
+    color: tomato;
+}
+
+.directions-table{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.directions-table td {
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    padding: 8px;
+    line-height: 1.5;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/* footer */
+
+#footer {
+     /* display: fixed; */
+    /* width: 100%; */
+    margin-top: 100px;
+	background-color: #262626;
+	bottom: 0;
+	color: #666666;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	/* position: fixed; */
+	text-transform: uppercase;
+	width: 100%;
+	z-index: 1;
+  }
+
+  #footer p {
+      text-align: center;
+  }
